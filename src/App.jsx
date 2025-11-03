@@ -98,9 +98,9 @@ const FootballManagerSAW = () => {
   const totalWeight = Object.values(weights).reduce((sum, w) => sum + w, 0);
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-green-900 via-green-800 to-emerald-900 p-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="bg-white rounded-xl shadow-2xl p-6 mb-6">
+    <div className="min-h-screen bg-linear-to-br from-green-900 via-green-800 to-emerald-900 p-3 sm:p-4 md:p-6">
+      <div className="max-w-7xl mx-auto space-y-4 sm:space-y-6">
+        <div className="bg-white rounded-lg sm:rounded-xl shadow-lg sm:shadow-2xl p-3 sm:p-4 md:p-6">
           <Header
             showCalculation={showCalculation}
             setShowCalculation={setShowCalculation}
