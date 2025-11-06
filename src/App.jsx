@@ -9,11 +9,11 @@ import { Calculator, TrendingUp, Trophy, UserPlus, X } from 'lucide-react';
 
 const FootballManagerSAW = () => {
   const [players, setPlayers] = useState([
-    { id: 1, name: 'Erling Haaland', fee: 350, wage: 397, ability: 185, potential: 195 },
-    { id: 2, name: 'Ousmane Dembélé', fee: 350, wage: 209, ability: 172, potential: 174 },
-    { id: 3, name: 'Kylian Mbappé', fee: 282, wage: 374, ability: 188, potential: 197 },
-    { id: 4, name: 'Vinícius Júnior', fee: 273, wage: 400, ability: 18, potential: 190 },
-    { id: 5, name: 'Rodri', fee: 350, wage: 193, ability: 183, potential: 183 }
+    { id: 1, name: 'Lamine Yamal', fee: 191, wage: 17, ability: 173, potential: 190 },
+    { id: 2, name: 'Désiré Doué', fee: 105, wage: 157, ability: 159, potential: 170 },
+    { id: 3, name: 'Pau Cubarsí', fee: 97, wage: 68, ability: 157, potential: 166 },
+    { id: 4, name: 'Dean Huijsen', fee: 78, wage: 55, ability: 155, potential: 166 },
+    { id: 5, name: 'Kobbie Mainoo', fee: 86, wage: 74, ability: 154, potential: 163 }
   ]);
 
   const [weights, setWeights] = useState({
